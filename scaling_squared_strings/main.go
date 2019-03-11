@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56ed20a2c4e5d69155000301
+
 package main
 
 import (
@@ -6,7 +8,9 @@ import (
 )
 
 func Scale(s string, k, n int) string {
-	if len(s) == 0 {return s}
+	if len(s) == 0 {
+		return s
+	}
 	parts := strings.Split(s, "\n")
 
 	endRes := []string{}

@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/5656b6906de340bd1b0000ac
+
 package main
 
 import (
@@ -34,16 +36,6 @@ func TwoToOne(s1 string, s2 string) string {
 	set.addFromString(s2)
 	return strings.Join(set.sorted(), "")
 }
-
-// func main() {
-
-// 	a := "xyaabbbccccdefww"
-// 	b := "xxxxyyyyabklmopq"
-
-// 	test := TwoToOne(a, b)
-// 	fmt.Println(test == "abcdefklmopqwxy")
-
-// }
 
 func main() {
 	fmt.Println([]byte("A"))

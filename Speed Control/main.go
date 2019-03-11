@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56484848ba95170a8000004d
+
 package main
 
 import "fmt"

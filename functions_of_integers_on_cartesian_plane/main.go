@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/559e3224324a2b6e66000046
+
 package main
 
 //SuMin returns sum of mins
