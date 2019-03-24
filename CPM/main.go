@@ -161,8 +161,7 @@ func findCriticalPaths(data []State) map[string][][]string {
 					for _, postTask := range state.post {
 						if postTask.es == postTask.ls {
 							// add post task to every path ending with pre task
-							// paths[postTask.id] = [][]string{}
-							//loop through paths
+							// loop through paths
 							for _, path := range temp {
 								paths[postTask.id] = append(paths[postTask.id], append(path, postTask.id))
 							}
@@ -172,7 +171,6 @@ func findCriticalPaths(data []State) map[string][][]string {
 			}
 		}
 	}
-
 	return paths
 }
 
@@ -196,5 +194,4 @@ func main() {
 			i++
 		}
 	}
-
 }
